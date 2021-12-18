@@ -2,9 +2,9 @@
   "name": "binancetemplate",
   "version": "1.0.0",
   "description": "",
-  "main": "src/index.ts",
+  "main": "index.ts",
   "scripts": {
-    "test": "npx ts-node src/index.ts"
+    "test": "npx ts-node index.ts"
   },
   "author": "Eperson",
   "license": "ISC",
@@ -16,6 +16,7 @@
     "typescript": "^4.5.3"
   },
   "dependencies": {
+    "dotenv": "^10.0.0",
     "node-binance-api": "^0.13.1"
   }
 }
